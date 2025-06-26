@@ -1,8 +1,6 @@
 import streamlit as st
 
-# ----------------------------
-# Placeholder functions
-# ----------------------------
+
 def get_recommendations(product_name):
     return ["Product A", "Product B", "Product C", "Product D", "Product E"]
 
@@ -16,9 +14,7 @@ def predict_customer_segment(recency, frequency, monetary):
     else:
         return "Occasional"
 
-# ----------------------------
-# Streamlit UI
-# ----------------------------
+
 st.set_page_config(page_title="Customer Insights App", layout="wide")
 st.title("🛍️ Customer Intelligence Dashboard")
 
